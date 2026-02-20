@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(to right, rgb(236, 185, 193), #4f4f54 );
+    margin: 0;   
+    justify-content: center;
+    align-items: center; 
+}
+
+.logo {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    
+}
+
+.logo img{
+     width: 50px;
+     height: 50px;
+}
+
+.logo h3 {
+    margin-top: 15px;
+    margin-right: 1050px;
+}
+.buttons {
+    display: flex;
+    border-color: #1f1f23;
+    border-width: 5px;
+}
+.buttons a {
+    margin-top: 18px;
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+   
+}
+
+.mainbox {
+    display: flex;
+    height: 600px;
+    margin: 20px;
+    width: 1200px;
+    margin-left: 230px;
+    margin-top: 25px;
+    
+}
+
+.webbox {
+    background: linear-gradient(to bottom, rgb(222, 151, 162), rgb(221, 174, 181));
+    margin-right: 15px;
+    border-radius: 20px;
+    border-color: #1f1f23;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.weblink a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.webbox p {
+    text-align: justify;
+    margin: 0;
+}
+
+.dsabox {
+    background: linear-gradient(to bottom, rgb(222, 151, 162), rgb(221, 174, 181));
+    margin-right: 15px;
+    border-radius: 20px;
+    border-color: #1f1f23;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.dsalink a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.dsabox p {
+    text-align: justify;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.hcibox {
+    background: linear-gradient(to bottom, rgb(222, 151, 162), rgb(221, 174, 181));
+    margin-right: 15px;
+    border-radius: 20px;
+    border-color: #1f1f23;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.hcilink a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.hcibox p {
+    text-align: justify;
+    margin: 0;
+    margin-top: 8px;
+}
+

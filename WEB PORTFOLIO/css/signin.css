@@ -1,0 +1,144 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgb(236, 185, 193), #4f4f54 );
+    margin: 0;    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img{
+     width: 50px;
+     height: 50px;
+}
+
+.logo h3 {
+    margin-top: 15px;
+}
+
+.login-box{
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 85vh;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+
+#loginForm{
+    text-align: center;
+    background-color:  rgb(222, 151, 162);
+    width: 800px;
+}
+
+#loginForm h1{
+    font-family: 'Segoe UI';
+    font-size: 42px;
+    text-align: center;
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.input-box{
+    background-color: lightpink;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-left: 220px;
+}
+
+.input-box input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+
+}
+
+.btn-signin {
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(234, 120, 137);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px; 
+}
+
+.btn-signin:hover {
+    background-color: rgb(223, 90, 110);
+}
+
+.remember-forgot{
+    color: white;
+    padding: 10px;
+    display: flex;
+    margin-left: 210px;
+    font-size: 15px;
+   
+}
+
+#forgotPassword{
+    margin-left: 95px;
+    color: white;
+    font-weight: bold;
+}
+
+.register-link{
+    color: white;
+    padding: 10px;
+}
+
+.register-link a{
+    text-decoration: none;
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color:  rgb(222, 151, 162);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+
+}
+.rightpanel{
+    width: 300px;
+    background-color: #1f1f23;
+    color: white;
+    padding: 50px;
+    overflow-y: auto;
+    align-content: center;
+    text-align: center;
+     
+}
+
+.register-link h1{
+    font-family: 'Segoe UI';
+    color: rgb(252, 213, 218);
+}
+
+.register-link h3{
+    margin-bottom: 40px;
+}
+
+ 

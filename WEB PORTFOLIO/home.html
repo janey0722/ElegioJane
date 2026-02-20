@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="logo">
+        <img src="images/logo.png" alt="">
+        <h3>ElegioWeb</h3>
+    </div>
+    <div class="main-wrapper">
+        <div class="form-section">
+            <h1>Register</h1>
+            <div class="input-group">
+                <input type="text" id="fName" placeholder="First Name">
+                <input type="text" id="mName" placeholder="Middle Name (Optional)">
+                <input type="text" id="lName" placeholder="Surname">
+                <input type="number" id="age" placeholder="Age">
+                <input type="email" id="email" placeholder="Email Address">
+                
+                <button id="saveBtn">Save & Register</button>
+            </div>
+            <div class="signin">
+                <h5>Already have an account?</h5>
+                <a href="signin.html">Sign-In</a>
+            </div>
+        </div>
+
+        <div class="directory-section">
+            <h2>Registered Directory</h2>
+            <div class="table-container">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Email</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr id="noData">
+                            <td colspan="4" class="empty-msg" style="text-align:center;">No users registered yet.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>

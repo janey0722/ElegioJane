@@ -1,0 +1,163 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgb(236, 185, 193), #4f4f54 );
+    margin: 0;    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img{
+     width: 50px;
+     height: 50px;
+}
+
+.logo h3 {
+    margin-top: 12px;
+}
+
+.main-wrapper {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 85vh;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-left: 160px;
+}
+
+.form-section {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  rgb(222, 151, 162);
+}
+
+.form-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: var(--text-dark);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--brand-blue);
+}
+
+#saveBtn {
+    background-color: rgb(234, 120, 137);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+#saveBtn:hover {
+    background-color: rgb(223, 90, 110);
+}
+
+.signin {
+   display: flex;
+}
+
+.signin h5{
+    margin-right: 5px;
+    margin-left: 115px;
+}
+
+.signin a{
+    margin-top: 19px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.directory-section {
+    flex: 1.2;
+    background-color: #1f1f23;
+    color: white;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+.directory-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+.table-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+    font-size: 0.85rem;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    opacity: 0.8;
+}
+
+td {
+    padding: 15px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.empty-msg {
+    text-align: center;
+    padding: 40px;
+    opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+    .main-wrapper { 
+        flex-direction: column; 
+        height: auto; 
+    }
+    .directory-section { 
+        min-height: 300px; 
+    }
+
+}
+:root {
+    --brand-blue: #4e73df;
+    --bg-light: #f4f7f6;
+    --text-dark: #333;
+}
